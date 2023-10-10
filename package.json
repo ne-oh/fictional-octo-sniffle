@@ -78,7 +78,7 @@
     "yaml": "^2.3.2"
   },
   "scripts": {
-    
+    "build": "tailwindcss -i ./src/input.css -o ./public/style.css --watch"
   },
   "keywords": [],
   "author": "",
